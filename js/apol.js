@@ -1,6 +1,8 @@
 /* global $ */
 // object that gives info
 
+alert("Welcome! Unfortunately, only this and the 'Le Magasin' page are up for view. Enjoy!");
+
 function girls(name, age, location, goal) {
   this.name = name;
   this.age = age;
