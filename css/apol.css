@@ -309,7 +309,8 @@ section.leggo h2 {
 }
 
 .leggo {
-    background-color: rgba(210, 102, 214, 0.8);
+    background-color: rgba(91, 26, 68, 0.8);
+    color: white;
 }
 
 section.leggo img {
