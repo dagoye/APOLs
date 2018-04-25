@@ -69,6 +69,7 @@
     /*display: inline-block;*/
     margin: auto;
     width: 40%;
+    min-width: 300px;
     top: 25%;
     left: 35%;
     float: left;
@@ -100,9 +101,10 @@
 #membLog:hover{background-color: rgba(0,0,0,.9); cursor: pointer;}
 
 .buttonrow {
+    display: flex;
     margin: 0 auto;
-    width: auto;
-    white-space: nowrap;
+    max-width: 100%;
+    flex-wrap: nowrap;
     justify-content: center;
     width: 100%;
 }
@@ -208,6 +210,10 @@ span#wait {
     color: #f9f9f9;
 }
 
+#sm-signup button:hover {
+    background-color: black;
+    cursor: pointer;
+}
 #arrowDown{
     width: 70px;
     margin: 0px auto;
@@ -277,6 +283,10 @@ section.what{
  h3 {
      text-align: center;
  }
+ 
+ .leggo .container p{
+     text-align: center;
+ }
  input{
      display: inline;
  }
@@ -316,14 +326,31 @@ section.leggo #users.container {
         float: left;
 }
 .leggo form{
-    width: 90%;
-    display: inline-block;
+    /*    display: flex;*/
+    /*align-items: center;*/
+    /*width: 100%;*/
+    /*margin: 0px auto;*/
+    /*flex-wrap: wrap;*/
+}
+
+form div{
+    float: left;
+    max-width: 30%;
+    overflow-x: hidden;
+}
+
+#searchwrapper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0px auto;
     flex-wrap: wrap;
 }
 .wrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    align-items: center;
 }
 
 .left.arrow {
@@ -450,6 +477,7 @@ footer p {
         display: flex;
         margin: 5px 20px;
     }
+   
 }
 
 /*.text{*/
