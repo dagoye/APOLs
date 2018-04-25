@@ -1,0 +1,467 @@
+/*NAVBAR*/
+.navbar.navbar-expand-lg.navbar-custom{
+    background-color: rgba(43, 15, 61, 0.9); /*purple*/
+    color: white;
+    padding: 0px;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.nav-link {
+    color: rgba(210, 102, 214, 0.8);
+  
+    /*color: white;*/
+    font-family: 'amiko';
+}
+
+.nav-link:hover {
+    color: rgb(224, 149, 226);
+}
+
+.nav-item {
+ padding: 3px;   
+}
+
+.navbar-brand{
+    font-family: 'Cabin Sketch', cursive;
+    text-shadow: 2px 2px 5px rgb(91, 26, 68);
+    font-size: 2rem;
+    color: white;
+    padding-left: 20px;
+}
+
+.navbar-brand:hover{
+    color:white;
+}
+
+#complete{
+    font-family: 'Homemade Apple', cursive;
+    color: white;
+}
+
+#meet {
+    color: rgb(224, 149, 226);
+}
+
+.nav-item.meetCompletes{
+    /*pink*/
+    background-color: rgba(210, 102, 214, 0.5);
+    /*background-color: rgba(91, 26, 68, 0.5);*/
+    color: pink;
+}
+
+#newHere{
+    /*padding: 10px 20px 10px 0px;*/
+    margin-right: 20px;
+}
+
+.fade {
+    opacity: 0;
+}
+/*CAROUSEL*/
+.carousel-inner , .carousel-item img {
+    height: 93vh;
+    width: 100%;
+}
+.enter.center {
+    position: absolute;
+    text-align: center;
+    /*display: inline-block;*/
+    margin: auto;
+    width: 40%;
+    top: 25%;
+    left: 35%;
+    float: left;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+.enter  button {
+    border: none;
+    outline: 0px;
+    border-radius: 2px;
+    color: white;
+    background-color: rgba(210, 102, 214, 0.8);
+    margin: 20px;
+    float: left;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.enter button:focus {outline:0 ;}
+.enter button:hover {background-color: rgba(0,0,0,.9); cursor: pointer;}
+
+#membLog {
+    background-color: gray;
+}
+#membLog:hover{background-color: rgba(0,0,0,.9); cursor: pointer;}
+
+.buttonrow {
+    margin: 0 auto;
+    width: auto;
+    white-space: nowrap;
+    justify-content: center;
+    width: 100%;
+}
+.adventurerow{
+    text-align: center;
+    padding: 20px 5px 0px 5px;
+    margin: 0 auto;
+    color: white;
+    font-size: 1.5em;
+    height: 100px;
+}
+span#wait {
+    /*font-family: 'Homemade Apple', cursive;*/
+    font-size: 20px;
+        color: white;
+
+}
+
+#adventure {
+    font-family: 'Homemade Apple', cursive;
+        text-shadow: 2px 2px 2px black;
+
+}
+.carousel-item h4 {
+    position: absolute;
+    bottom: 20%;
+    /*or 200px*/
+    padding: 20px;
+    color: white;
+    font-family: 'Cabin Sketch', cursive;
+    text-shadow: 3px 2px 3px rgba(43, 15, 61, 1);
+    background: linear-gradient(to right, rgb(91, 26, 68), rgba(0,0,0,0));
+    width: 35%;
+}
+/*maybe include text animation*/
+
+/*BODY - WHO WE ARE*/
+
+.signup {
+    margin: 30px auto;
+    width: 80%;
+    position: relative;
+    overflow: auto;
+    display: flex;
+    background-color:rgba(56, 147, 183,0.5);
+    background-color:rgba(91, 26, 68, 0.4);
+    padding: 30px 0px;
+    
+}
+
+#submit {
+    margin: auto;
+    left: 50%;
+    width: 63px;
+    height: auto;
+    overflow-x: hidden;
+    border-style: none;
+}
+
+.signup div {
+    float:left;
+}
+
+#manual-signup{
+     width: 60%;
+     border-right: thick solid rgba(0,0,0,0.5);
+     margin-right: 20px;
+     margin-left: 20px;
+     padding-right: 10px;
+     color: white;
+}
+ form {
+     margin: auto;
+     max-width: 100%;
+     white-space: nowrap;
+     overflow: auto;
+
+ }
+#sm-signup {
+    max-width: 30%;
+    margin: auto 10px auto 0px
+    
+}
+#sm-signup div {
+    padding: 5px;
+}
+
+#sm-signup button{
+    border: none;
+    outline: 0px;
+}
+#facebook{
+    background-color: #3B5998;
+    color: #f9f9f9;
+}
+#google {
+    background-color: #DB4437;
+    color: #f9f9f9;
+}
+
+#twitter {
+    background-color: #1DA1F2;
+    color: #f9f9f9;
+}
+
+#arrowDown{
+    width: 70px;
+    margin: 0px auto;
+    padding-bottom: 20px;
+    color:  rgba(43, 15, 61, 0.5);
+    
+}
+#arrowDown:hover {
+    color: black;
+    cursor: pointer;
+}
+/*BODY - WHAT WE DO*/
+.column.what img {
+    height: 250px;
+    width: 90%;
+    border-radius: 50%;
+    padding-bottom: 20px;
+    
+}
+
+.column.what img:hover{
+    opacity: .5;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.column.what {
+    /*width: 25v;*/
+    width: 45%;
+    /*box-sizing: border-box;*/
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+    height: 0%;
+}
+
+div.column.what h4 {
+    font-family: 'Homemade Apple';
+    text-align: center;
+}
+
+div h3{
+font-family: 'Cabin Sketch', cursive;
+text-align: center;
+color: rgba(43, 15, 61, 0.9)
+}
+
+.container {
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 20px;
+    max-height: 100vh;
+}
+
+.row {
+    height: 20%;
+    display: grid;
+    overflow-y: auto;
+}
+
+
+section.what{
+    overflow-y: auto;
+    height: auto;
+}
+ /*BODY - LEGGO APOLOGETit*/
+
+ h3 {
+     text-align: center;
+ }
+ input{
+     display: inline;
+ }
+ 
+ .leggo form div {
+     /*float: left;*/
+     margin-right: 10px;
+     width: 40%;n
+ }
+ 
+ form button {
+     margin-left: 10px;
+ }
+section.leggo h2 {
+    font-family: 'Cabin Sketch', cursive;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    text-align: center;
+    padding-top: 30px
+}
+
+.leggo {
+    background-color: rgba(210, 102, 214, 0.8);
+}
+
+section.leggo img {
+    height: 200px;
+    max-width: 25%;
+    /*float: left;*/
+    margin: 10px;
+}
+
+section.leggo #users.container {
+        white-space: nowrap;
+        height: 250px;
+        overflow-x: hidden;
+        float: left;
+}
+.leggo form{
+    width: 90%;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.left.arrow {
+    float: left;
+}
+
+.right.arrow {
+    float: right;
+}
+
+.overlay {
+    opacity: 0.5;
+}
+
+#overlay {
+    height: 200px;
+    width: 25%;
+    background-color: black;
+}
+
+section.leggo #overlay.container {
+        white-space: nowrap;
+        height: 250px;
+        overflow-x: auto;
+        float: left;
+        /*position: absolute;*/
+}
+.square {
+    width: 25%;
+    height: 200px;
+    /*float: left;*/
+    background-color: black;
+    margin: 10px;
+    float: left;
+    color: white;
+    text-align: center;
+
+}
+ 
+/*BODY - PARALLAX*/
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.carousel.slide {
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+#carouselExampleSlidesOnly {
+    height: 100%;
+}
+
+section#landing, .who, .what, .leggo {
+    height:100vh;
+    width: 100%;
+    /*overflow-y:hidden;*/
+}
+
+#section {
+    height: 100vh;
+
+}
+.who{
+    background: url("https://images.unsplash.com/photo-1483634831823-4fb19cf47c3a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a26c21282880521e51cc953f9da7f995&auto=format&fit=crop&w=1650&q=80");
+    /*background-size: cover;*/
+    background-attachment: fixed;
+    
+}
+
+#discMore a:hover, #discMore a {
+    color: white;
+    text-decoration: none;
+    transition: all .8s ease-in-out;
+}
+
+/*FOOTER*/
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer p {
+    margin-bottom: 0px;
+}
+
+/*RESPONSIVE CSS*/
+
+@media (min-width: 750px){
+    .column.what {
+        width: 25%;
+        height: 20%;
+        margin-right: 0px;
+    }
+    /*    section {*/
+    /*    height: auto;*/
+    /*    overflow:auto;*/
+    /*}*/
+}
+
+
+@media (max-width: 500px){
+    .column.what {
+        width: 100%;
+        margin-right: 0px;
+        height: 20%;
+        flex-direction: column;
+    }
+    
+    label , input {
+        display: inline;
+        
+    }
+    
+    section.what {
+        height: 600px;
+        
+    }
+    
+    section.what div.row {
+        display: flex;
+        margin: 5px 20px;
+    }
+}
+
+/*.text{*/
+/*    text-align: center;*/
+/*    position: relative;*/
+/*    top: 20%;*/
+/*    right: 50%;*/
+/*}*/
+/*1205 or 1046*/
+
+.signUP.container div {
+   position: absolute;
+    float: right;
+    width: 50% ;
+}

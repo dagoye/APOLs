@@ -1,0 +1,327 @@
+/*GENERAL*/
+
+.section{
+    height: 100vh;
+}
+/*html, body {*/
+/*    width: 100%;*/
+/*    margin: 0px;*/
+/*}*/
+/*NAVBAR*/
+.navbar.navbar-expand-lg.navbar-custom{
+    background-color: rgba(43, 15, 61, 0.9); /*purple*/
+    background-color: rgba(122, 116, 124, 0.3);
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    padding: 0px;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.nav-link {
+    color: rgba(43, 15, 61, 0.9);
+      /*color: rgb(74, 16, 99);*/
+      /*color: #f9f9f9;*/
+     /*color: rgba(91, 26, 68, 1);*/
+    color: rgb(251, 247, 255);
+    /*color: white;*/
+    font-family: 'amiko';
+}
+
+.nav-link:hover {
+    color: rgb(209, 138, 193);
+    
+}
+
+.nav-item {
+ padding: 3px;   
+}
+
+.navbar-brand{
+    font-family: 'Cabin Sketch', cursive;
+    text-shadow: 2px 2px 5px rgba(43, 15, 61, 0.9);
+    text-shadow: 4px 2px 10px rgba(91, 26, 68, 0.8);
+    font-size: 2rem;
+    color: white;
+    padding-left: 20px;
+}
+
+.navbar-brand:hover{
+    color:white;
+}
+
+#complete{
+    font-family: 'Homemade Apple', cursive;
+    color: white;
+}
+
+#meet {
+    color: rgba(43, 15, 61, 0.9);
+color: rgb(74, 16, 99);
+color: rgb(209, 138, 193);
+    
+}
+
+.nav-item.meetCompletes{
+    /*pink*/
+    background-color: rgba(210, 102, 214, 0.5);
+    background-color: rgba(91, 26, 68, 0.8);
+    
+    color: pink;
+}
+
+#newHere{
+    /*padding: 10px 20px 10px 0px;*/
+    margin-right: 20px;
+}
+
+.fade {
+    opacity: 0;
+}
+/*CAROUSEL*/
+/*button*/
+#flyer{
+    z-index: 1;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    background-color: rgba(0,0,0,.6);
+    /*border: 2px solid rgba(0,0,0,0.8);*/
+    border-radius: 10px;
+    color: white;
+    padding: 15px 45px;
+    text-align: center;
+    font-family: 'QuickSand';
+}
+
+#flyer h1{
+    margin: 0px auto;
+    font-size: 28px;
+    font-family: 'Playfair Display';
+    text-shadow: 2px 2px black;
+    font-weight: bolder;
+} 
+#flyer h4{
+    margin: 0px auto;
+    font-size: 16px;
+}
+#flyer h6 {
+    margin: 0px auto;
+    font-size: 12px;
+    padding-top: 3px;
+}
+
+#flyer button{
+  border: 1px solid gray;
+  border-radius: 40px;
+  background-color: rgba(0,0,0,.1);
+  background-color: rgba(91, 26, 68, 0.8);
+  color: white;
+  padding: 3px 20px;
+  margin-top: 15px;
+}
+
+#flyer button:hover {
+    background-color: rgb(0,0,0);
+    cursor: pointer;
+}
+
+/*car*/
+.carousel-inner{
+    max-height: 100%;
+}
+
+#displayWrap {
+    float: left;
+    width: 100%;
+    height: 50vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.carousel.column {
+    float: left;
+    max-width: 70%;
+    max-height: 100%;
+}
+
+.side.column {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin: 0px;
+    background-color: #e9e9e9;
+}
+
+.carousel-item img {
+    height: 50vh;
+    object-fit: cover;
+}
+
+.side img{
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.row.img{
+    max-width: 100%;
+    max-height: 45%;
+    margin: auto 10px;
+}
+
+/*SOMETHING CUTE*/
+#collections{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    /*height: auto;*/
+    overflow: auto;
+    margin: 20px auto;
+    /*padding-top: 20px;*/
+    background-color: rgb(188, 149, 177);
+    background: linear-gradient(to right, #e9e9e9, rgb(188, 149, 177), #e9e9e9);
+    
+}
+#collections div{
+    margin: 20px;
+    float: left;
+    text-align: center;
+}
+
+h2#col{
+    font-family: 'Playfair';
+    text-align: center;
+    padding: 10px;
+    border: 1px double black;
+    box-shadow: -2px 2px 2px gray;
+    font-size: 1.5em;
+    width: 100%;
+    height: 20%;
+    /*margin: 10px auto;*/
+    margin-left: 20px;
+    background-color: #e9e9e9;
+    
+}
+
+#collections img {
+    flex-wrap: nowrap;
+    float: left;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 0 0 3px black;
+}
+
+/*CATEGORIES*/
+#filter {
+    clear: both;
+    max-height: 100%;
+}
+
+#filter p {
+    margin: 2px;
+    color: rgba(43, 15, 61, 0.9);
+    font-family: 'Playfair Display';
+    letter-spacing: 1px;
+}
+
+aside > p{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 1.75em;
+    text-align: center;
+    background-color: rgba(43, 15, 61, 0.85);
+    color: #e9e9e9;
+    padding: 0px 10px;
+    box-shadow: 2px 2px 3px black;
+}
+#checkBox {
+    margin-right: 10px;
+}
+
+aside {
+    clear: both;
+    height: 100%;
+    max-width: 20%;
+    padding: 20px;
+    font-size: .80em;
+    margin-left: 35px;
+}
+.wrapper {
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+aside, .grid {
+    float: left;
+    /*margin: 0px;*/
+}
+
+
+/*CLOTHES*/
+.item img {
+    height: 175px;
+    width: 155px;
+    box-shadow:  0 .5px 10px black;
+}
+.item p {
+    font-family: 'Playfair Display';
+}
+.item {
+    width: 155px;
+    float: left;
+    margin: 15px;
+}
+
+.item p{
+    margin: 0px;
+    text-align: center;
+    font-weight: 500;
+}
+#regPrice {
+    display: block;
+    float: left;
+    font-size: .9em;
+}
+
+#sale {
+    display: block;
+    float: right;
+    text-decoration: line-through;
+    font-size: .9em;
+    color: gray;
+}
+
+.price {
+    max-width: 100%;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 70%;
+    margin: 0 10px;
+    margin: 0px auto;
+    padding-top: 10px;
+    background-color: rgba(91,91,91,.1);
+    /*box-shadow:  0 10px 10px black;*/
+}
+
+/*RESPONSIVE*/
+
+@media (min-width: 200px){
+    aside {
+        min-width: 150px;
+    }
+}
