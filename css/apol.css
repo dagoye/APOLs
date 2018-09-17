@@ -414,6 +414,13 @@ section#landing, .who, .what, .leggo {
     /*overflow-y:hidden;*/
 }
 
+section#landing, section.leggo{
+    height: auto;
+}
+
+section.leggo{
+    padding-bottom:20px;
+}
 #section {
     height: 100vh;
 
@@ -439,6 +446,8 @@ footer {
 
 footer p {
     margin-bottom: 0px;
+    padding: 7px 20px;
+    text-align: right;
 }
 
 /*RESPONSIVE CSS*/
