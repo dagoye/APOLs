@@ -311,6 +311,7 @@ section.leggo h2 {
 .leggo {
     background-color: rgba(91, 26, 68, 0.8);
     color: white;
+     padding-bottom:20px;
 }
 
 section.leggo img {
@@ -408,27 +409,22 @@ body {
     height: 100%;
 }
 
-section#landing, .who, .what, .leggo {
+/* .who, .what, .leggo {
     height:100vh;
     width: 100%;
-    /*overflow-y:hidden;*/
-}
+    /*overflow-y:hidden;
+} */
 
-section#landing, section.leggo{
-    height: auto;
-}
 
-section.leggo{
-    padding-bottom:20px;
-}
 #section {
     height: 100vh;
-
 }
+
 .who{
     background: url("https://images.unsplash.com/photo-1483634831823-4fb19cf47c3a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a26c21282880521e51cc953f9da7f995&auto=format&fit=crop&w=1650&q=80");
     /*background-size: cover;*/
     background-attachment: fixed;
+    height:100vh;
     
 }
 
